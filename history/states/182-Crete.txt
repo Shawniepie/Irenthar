@@ -1,0 +1,18 @@
+state={
+	id=182
+	name="STATE_182"
+	provinces={
+		 3481 3707 
+	}
+	state_category = pastoral
+	manpower=1439
+	buildings_max_level_factor=1.000
+	history={
+		owner = SKA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SKA
+
+	}
+}

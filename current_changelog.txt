@@ -1,0 +1,9 @@
+-Added events to Irinthios to DoW and core Tlarthingia
+-Added Lirothlind, which has some events related to the power struggle between the Church and the Heir Apparent
+-Made the Strait of Tion crossable for armies when contested.
+-Tlarthingia's hatred of Irinthios is now reciprocated.
+-Made sure that the Dwarven breakaway states and Skaelinger now hate each other
+-Made Lirothlind and Rimatü hate each other
+-Made the Kurgur, the Bergialer and the Skaelinger hate each other
+-Slightly changed Daskellin's symbol to show the God of Fire and Freedom breaking the chains
+-Added loading tip

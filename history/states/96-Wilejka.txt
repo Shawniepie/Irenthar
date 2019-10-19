@@ -1,0 +1,22 @@
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		3663 1367 1184 7951 4339 7913 1913
+	}
+	state_category = town
+	manpower=17902
+	buildings_max_level_factor=1.000
+		history={	
+		victory_points = {4339 17}
+		owner = ORD
+		buildings = {
+		4339 = { naval_base = 1 }
+		infrastructure = 4
+		industrial_complex = 1
+		dockyard = 2
+		arms_factory = 1
+		}	
+		add_core_of = ORD
+		}
+}

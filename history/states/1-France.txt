@@ -1,0 +1,31 @@
+state={
+	id=1
+	name="STATE_1"
+	state_category = megalopolis
+	manpower = 1303729
+
+	provinces={
+		3069 4105 4797 6295 6272 5523
+	}
+	
+	
+	resources = {
+		steel = 13
+	}
+
+		
+	history={
+		owner = GMR
+		victory_points = { 3069 53 }
+			buildings = {
+				infrastructure = 7
+				arms_factory = 4
+				industrial_complex = 5
+				dockyard = 2
+				3069  = {
+					naval_base = 5
+				}
+			}
+		add_core_of = GMR
+	}
+}

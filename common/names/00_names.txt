@@ -1,0 +1,291 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another John Smith.
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { John Bob Lucas Marcus Alexander Alex Peter Jonas Jim Johannes}
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { Juliette Anna }
+	#	surnames = { }
+	#	callsigns = { Queen Of The Sky The Red Princess }
+	#}
+	surnames = { Smith Jones Taylor Brown Williams Wilson Evans Walker White Roberts }
+	callsigns = { Easy Kill The Lightning The Devil Grasshopper Handsome Moose Mouse Pebbles Sunshine Demon}
+}
+ 
+###############################################################
+# The Union
+###############################################################
+PRK = {
+	male = {
+		names = {
+			Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			Leszek Karel Josef Jaroslav František Rostislav Václav Antonín Milan Stanislav Slavomír Jan Vilém Bořivoj Vladimír Alois Matúš Vojtěch
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+			Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+			Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+			Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+		}
+	}
+	female = {
+		names = {
+			Zofia Wiktoria Natalia Renata Elżbieta Marie Anna Hana Božena Alžběta Marta
+		}
+	}
+	surnames = {
+		Nowakowska Kowalska Wiśniewska Kamińska Lewandowska Zielińska Szymańska Dąbrowska Kozłowska Jankowska Kwiatkowska Wojciechowska Piotrowska Grabowska
+		Kowalczyk Wójcik Woźniak Mazur Krawczyk Kaczmarek Havlíčková Dvořáková Nováková Kolářová Novotná Macháčková Veselá Vaňková Němcová Malá Adamcová Suchá Havlíková
+		Horváthová Majerová Kocianová Chalupová Ferková Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+	 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+	 	Aleksandrowicz Koter Havlíček Dvořák Novák Kolář Novotný Macháček Veselý Vaněk Němec Malý Adamec Suchý Havlík
+		Horváth Majer Kocian Chalupa Ferko Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+		Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+		Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+}
+
+UNG = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+HLZ = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+NOC = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+SVT = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+SPW = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+STA = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+NRK = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+TEI = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+SNF = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+ARK = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+FAU = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+WIS = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+WSZ = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}
+
+FTH = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann 
+		}
+	callsigns = { Bubi Assi The Black Devil The Blond Knight Of Germany Dolfo Fighter of Libau Petit Rouge Pritzl The Red Baron The Red Battle-flyer The Red Knight Reeste }
+}

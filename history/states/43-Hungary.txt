@@ -1,0 +1,17 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		4459 6004 5950 4576 3686 5915 5898
+	}
+	state_category = rural
+	manpower=3287
+	buildings_max_level_factor=1.000
+	history={
+		owner = GMR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GMR
+	}
+}

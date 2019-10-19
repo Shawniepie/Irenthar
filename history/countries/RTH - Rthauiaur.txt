@@ -1,0 +1,166 @@
+﻿capital = 118
+
+set_oob = "RTH_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		mtg_transport = 1
+		basic_fire_control_system = 1
+	}
+}
+
+1939.1.1 = {
+}
+
+set_politics = {
+	ruling_party = republic_peasant
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchy_absolute = 5
+
+	monarchy_constitutional = 6
+
+	republic_peasant = 56
+
+	republic_aristocrat = 10
+
+	republic_merchant = 12
+
+	theocrat = 8
+
+	puritan = 3
+}
+
+add_ideas = {
+	RTH_disorganized_revolution
+	RTH_inexperienced_commanders
+	elf_country
+	itheryn_labour_patron
+}
+
+	give_guarantee = SKA
+	
+	diplomatic_relation = {
+		country = SKA
+		relation = military_access
+		active = yes
+	}
+	
+	add_opinion_modifier = {
+		target = SKA
+		modifier = staunch_allies
+	}
+
+	add_opinion_modifier = {
+		target = ORD
+		modifier = bitter_rivals
+	}
+	
+create_country_leader = {
+	name = "Kastyne Solverin"
+	desc = "politics_RTH_solverin_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Solverin.dds"
+	ideology = republic_peasant_ideology
+	traits = {
+	}
+}
+	
+create_country_leader = {
+	name = "Alucien Derathur"
+	desc = "politics_RTH_derathur_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Derathur.dds"
+	ideology = republic_peasant_ideology
+	traits = {
+		hero_of_the_revolution
+	}
+}
+
+create_country_leader = {
+	name = "Farnaur Ithinis"
+	desc = "politics_RTH_itihnis_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Ithinis.dds"
+	ideology = puritan_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ternise Locthorin"
+	desc = "politics_RTH_locthorin_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Locthorin.dds"
+	ideology = monarchy_absolute_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ternise Locthorin"
+	desc = "politics_RTH_locthorin_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Locthorin.dds"
+	ideology = monarchy_constitutional_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sacrene Hinassus"
+	desc = "politics_RTH_hinassus_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Hinassus.dds"
+	ideology = theocrat_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Burthys Vrinther"
+	desc = "politics_RTH_vrinther_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Vrinther.dds"
+	ideology = republic_aristocrat_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gerdaurin Varinnis"
+	desc = "politics_RTH_varinnis_desc"
+	picture = "gfx/leaders/RTH/Portrait_RTH_Varinnis.dds"
+	ideology = republic_merchant_ideology
+	traits = {
+	}
+}

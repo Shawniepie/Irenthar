@@ -1,0 +1,20 @@
+﻿### PERKAV EVENTS
+
+add_namespace = prksub
+
+
+country_event = { # Union offers Schneefilder Land
+	id = prksub.1
+	title = prksub.1.t
+	desc = prksub.1.d
+	picture = report_event_pierre_laval
+	
+	is_triggered_only = yes
+	
+	option = {#Sure
+		name = prksub.1.a
+		ai_chance = {
+			factor = 3
+		}
+		}
+	}
